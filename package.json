@@ -1,0 +1,26 @@
+{
+    "name": "generate-markup",
+    "version": "1.0.0",
+    "description": "Markup Generator",
+    "keywords": ["markup", "generator"],
+    "author": "J Scott Smith",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jscottsmith/@TODO"
+    },
+    "scripts": {
+        "start": "webpack-dev-server --open",
+        "watch": "webpack --watch"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-stage-0": "^6.24.1",
+        "file-loader": "^0.11.2",
+        "webpack": "^2.2.1",
+        "webpack-dev-server": "^2.9.1"
+    }
+}
